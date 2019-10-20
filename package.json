@@ -10,7 +10,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "copy-text-to-clipboard": "^1.0.4",
     "install": "^0.12.2",
     "js-cookie": "^2.2.0",
