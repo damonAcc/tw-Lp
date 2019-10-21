@@ -66,10 +66,11 @@ export const formatDate = (date = Date.now(), fmt = 'yyyy-MM-dd hh:mm:ss') => {
 
 // 加载 js
 let scriptCacheMap = {}
-export const loadScript = src => {
+export const loadScript = (src, wrapperStr) => {
   if (!Array.isArray(src)) {
     src = [src]
   }
+  let wrapper = document[wrapperStr] || document.body
   function loadOne(src) {
     if (scriptCacheMap[src]) return scriptCacheMap[src]
     const scriptNode = document.createElement('script')
@@ -77,7 +78,7 @@ export const loadScript = src => {
     scriptCacheMap[src] = new Promise(resolve => {
       scriptNode.onload = () => resolve()
     })
-    document.body.append(scriptNode)
+    wrapper.append(scriptNode)
     return scriptCacheMap[src]
   }
 
