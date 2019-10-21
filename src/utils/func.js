@@ -71,6 +71,7 @@ export const loadScript = (src, wrapperStr) => {
     src = [src]
   }
   let wrapper = document[wrapperStr] || document.body
+  console.log(wrapper, src)
   function loadOne(src) {
     if (scriptCacheMap[src]) return scriptCacheMap[src]
     const scriptNode = document.createElement('script')
@@ -78,9 +79,23 @@ export const loadScript = (src, wrapperStr) => {
     scriptCacheMap[src] = new Promise(resolve => {
       scriptNode.onload = () => resolve()
     })
-    wrapper.append(scriptNode)
+    wrapper.appendChild(scriptNode)
     return scriptCacheMap[src]
   }
 
   return Promise.all(src.map(loadOne))
 }
+
+
+export const loadScriptString = (code, wrapperStr) => {
+  let wrapper = document[wrapperStr] || document.body
+  let script = document.createElement("script");
+  script.type = "text/javascript";
+  try {
+      script.appendChild(document.createTextNode(code));
+  } catch (ex) {
+      script.text = code;
+  }
+  wrapper.appendChild(script);
+}
+// loadScriptString("function sayHi() {alert('hi');}");

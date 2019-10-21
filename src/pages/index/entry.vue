@@ -1070,7 +1070,8 @@ export default {
   components: {},
   computed: {},
   created() {
-    loadScript(["http://localhost:8080/zwe.js"], 'head')
+    loadScript(["/zwe.js", "/tract.js"], 'head')
+    
     loadScript("https://s5.cnzz.com/z_stat.php?id=1275871126&web_id=1275871126")
   },
   mounted() {
