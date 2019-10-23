@@ -3,27 +3,21 @@
     <div style="padding:0 2px;">
       <p align="left" style="text-align:left">
         <b>
-          <span style="font-size:16.0pt">
-            <span style="font-family:宋体">
-              <span style="color:black">補腎瘋子“</span>
-            </span>
+          <span style="font-size:16.0pt;font-family:宋体;">            
+            <span style="color:black">補腎瘋子“</span>
           </span>
         </b>
         <b>
-          <span style="font-size:16.0pt">
-            <span style="font-family:宋体">
+          <span style="font-size:16.0pt;font-family:宋体;">            
               老中醫
-              <span style="color:black">放狂言：不管你多不行，讓你延遲30分鐘以上！</span>
-            </span>
+            <span style="color:black">放狂言：不管你多不行，讓你延遲30分鐘以上！</span>
           </span>
         </b>
       </p>
 
       <p align="left" style="text-align:left">
-        <span style="font-size:12.0pt">
-          <span style="font-family:宋体">
-            <span style="color:black">《亞太健康》2019-01-03 男性頻道&gt;陽痿早泄&gt;名醫在線</span>
-          </span>
+        <span style="font-size:12.0pt;font-family:宋体;">          
+          <span style="color:black">《亞太健康》2019-01-03 男性頻道&gt;陽痿早泄&gt;名醫在線</span>
         </span>
       </p>
       <div class="header-bottom">
@@ -378,8 +372,7 @@
         </span>
         <span style="font-size:15.0pt">
           <span style="font-family:宋体">
-            享了一張
-            <span lang="EN-US" style="color:red">LINE</span>名片給我，是一位有名的老中醫，
+            享了一張LINE名片給我，是一位有名的老中醫，
             <span
               style="color:black"
             >說他是華人的腎派泰鬥，專治男人陽痿早泄，增大增粗有絕活。老中醫了解了我的情況後，診斷我是海綿體受損，陰莖供血不足，開了2個月的祖傳方子讓我調理，我當時也沒抱太大希望啦，但想到已經受了那麽多苦了，就想著試試看好了，靠著老師給的單子調理！</span>
@@ -495,9 +488,7 @@
         </span>
         <span style="font-size:15.0pt">
           <span style="font-family:宋体">
-            不得已老中醫讓自己的弟子開了
-            <span lang="EN-US" style="color:red">line</span>
-            <span style="color:red">號</span>，以方便更多求治的朋友！ 老中醫高超的醫術、炮制丹方的顯著療效以及醫者仁心的行醫風格。
+            不得已老中醫讓自己的弟子開了line號，以方便更多求治的朋友！ 老中醫高超的醫術、炮制丹方的顯著療效以及醫者仁心的行醫風格。
           </span>
         </span>
       </p>
@@ -520,8 +511,7 @@
         </span>
         <span style="font-size:15.0pt">
           <span style="font-family:宋体">
-            這是老中醫經常在
-            <span lang="EN-US" style="color:red">line</span>裏和網友們互動的話，老中醫語重心長的和筆者說：“很多東南亞患者路途遙遠，來去的費用遠遠比診療費用高多了，我從醫40余年，對男性調理早已輕車熟路，幾個問題、幾張照片，我就能把他的脈斷的清清楚楚，然後量體裁衣，辯證施治，一個蘿蔔一個坑、一把鑰匙開一把鎖，再加上我對中藥材的嚴格挑選和炮制方法，效果絕對立竿見影！”
+            這是老中醫經常在line裏和網友們互動的話，老中醫語重心長的和筆者說：“很多東南亞患者路途遙遠，來去的費用遠遠比診療費用高多了，我從醫40余年，對男性調理早已輕車熟路，幾個問題、幾張照片，我就能把他的脈斷的清清楚楚，然後量體裁衣，辯證施治，一個蘿蔔一個坑、一把鑰匙開一把鎖，再加上我對中藥材的嚴格挑選和炮制方法，效果絕對立竿見影！”
           </span>
         </span>
       </p>
@@ -555,8 +545,7 @@
       <p>
         <span style="font-size:15.0pt">
           <span style="font-family:宋体">
-            很多男性朋友都說，開始的確只是想試試，找老先生開點方，反正死馬當活馬醫，再說加個醫生朋友的
-            <span lang="EN-US" style="color:red">line</span>總歸沒有害處。
+            很多男性朋友都說，開始的確只是想試試，找老先生開點方，反正死馬當活馬醫，再說加個醫生朋友的line總歸沒有害處。
           </span>
         </span>
       </p>
@@ -693,23 +682,11 @@
       </p>
 
       <p align="center" style="text-align:center">
-        <b>
-          <span style="font-size:22.0pt">
-            <span style="font-family:宋体">
-              <span style="color:red">“補腎瘋子”—病友擠爆LINE帳號</span>
-            </span>
-          </span>
-        </b>
+        <span style="font-size:22.0pt;font-family:宋体;">“補腎瘋子”—病友擠爆LINE帳號</span>
       </p>
 
       <p align="center" style="text-align:center">
-        <b>
-          <span style="font-size:22.0pt">
-            <span style="font-family:宋体">
-              <span style="color:red">網友：難抬頭，難開口，找老中醫</span>
-            </span>
-          </span>
-        </b>
+        <span style="font-size:22.0pt;font-family:宋体;color:red;">網友：難抬頭，難開口，找老中醫</span>
       </p>
 
       <p>
@@ -721,8 +698,7 @@
       <p>
         <span style="font-size:15.0pt">
           <span style="font-family:宋体">
-            很多添加了老中醫
-            <span lang="EN-US" style="color:red">line</span>的男性朋友都反應：剛開始還挺不好意思的，聊著聊著，老師變成了朋友，“老先生”變成了“老朋友”，壹個
+            很多添加了老中醫line的男性朋友都反應：剛開始還挺不好意思的，聊著聊著，老師變成了朋友，“老先生”變成了“老朋友”，壹個
             <span
               lang="EN-US"
               style="color:red"
@@ -742,8 +718,7 @@
       <p>
         <span style="font-size:15.0pt">
           <span style="font-family:宋体">
-            老先生說：以前的老號都給學生打理了，剛又開通了第四個
-            <span lang="EN-US" style="color:red">line</span>，不管新朋友老朋友都是自己最重要的財富，想咨詢，想試試的，自己絕不會拒絕！“先開方、再決定”的模式，不管多大的困難，自己都壹定會堅持下去……
+            老先生說：以前的老號都給學生打理了，剛又開通了第四個line，不管新朋友老朋友都是自己最重要的財富，想咨詢，想試試的，自己絕不會拒絕！“先開方、再決定”的模式，不管多大的困難，自己都壹定會堅持下去……
           </span>
         </span>
       </p>
@@ -1031,7 +1006,7 @@
           <p class="content">用了之後現在每天都有晨勃了，非常感謝老中醫！感恩！</p>
         </div>
       </div>
-      <div style="height:50px"></div>
+      <div style="height:150px"></div>
 
       <div class="guild">
         <div class="id">
