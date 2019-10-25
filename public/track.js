@@ -8,6 +8,6 @@ window.addEventListener('load',function(){
       var hm = document.createElement("script")
       hm.src = tracker_domain+"just_a_tracking?views=true"+"&timezone="+timezone+"&userLanguage="+userLanguage+"&platform="+platform
       var s = document.getElementsByTagName("script")[0]
-      s.parentNode.insertBefore(hm, s)
+      s.parentNode.appendChild(hm, s)
   }()
 })
