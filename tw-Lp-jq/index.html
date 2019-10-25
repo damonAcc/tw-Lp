@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="cache-control" content="no-cache">
+  <style>
+    /*表单样式*/
+    .registerform {
+      background-color: #f5f5f5;
+    }
+    .row {
+      padding: 5px 10px 5px 70px;
+      position: relative;
+    }
+    .row > label {
+      left: 0px;
+      position: absolute;
+    }
+    .row > b {
+      left: 0px;
+      position: absolute;
+    }
+    .row a {
+      color: navy;
+    }
+    .input {
+      border: 1px solid rgb(217, 217, 217);
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      text-indent: 6px;
+      font-size: 14px;
+      vertical-align: middle;
+    }
+    .item_sec {
+      padding: 10px;
+      line-height: 30px;
+    }
+    .item_wrap {
+      background: rgb(250, 250, 250);
+      padding: 10px;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0px 1px 2px 2px #e4e4e4;
+    }
+    .item_wrap img {
+      margin: 0px 10px 10px 0px;
+      float: left;
+    }
+    .item_tle {
+      font-size: 15px;
+      font-weight: 700;
+      margin-top: 5px;
+    }
+    .item_pay {
+      color: rgb(153, 153, 153);
+    }
+    .item_num {
+      border: 1px solid rgb(227, 227, 227);
+      width: 60px;
+      height: 28px;
+      color: rgb(0, 0, 0);
+      line-height: 28px;
+      font-size: 14px;
+    }
+    .add {
+      background: rgb(245, 245, 245);
+    }
+    footer {
+      padding: 5px 10px 40px 10px;
+    }
+    .f-tips {
+      color: #ff3c00;
+      margin: 0 20px 20px;
+    }
+    #buy_now {
+      border-radius: 4px;
+      border: 0px currentColor;
+      width: 100%;
+      color: rgb(255, 255, 255);
+      line-height: 40px;
+      font-size: 16px;
+      box-shadow: inset 0px -1px 0px 0px #d74300;
+      text-align: center;
+    }
+    .orange_bg {
+      background-color: rgb(255, 80, 0) !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="form" action="" class="registerform">
+    <section class="item_sec">
+      <div class="item_wrap add">
+        <p class="row">
+          <!-- <label for="name">產品</label> -->
+          <input style="height: 12px;width: 20px;" data-type="s2-10" type="radio" checked="checked" class="block input"/>
+          <input type="hidden" id="proName" name="proName" value="強腎方" />
+          <input type="hidden" id="proId" name="proId" value="sj-xm-dt-19" />
+          <!-- <span id>老中醫強腎方(延長增大增粗)</span> -->
+        </p>
+        <p class="row">
+          <!-- <label for="name">姓名</label> -->
+          <input data-type="s2-10" name="name" id="name" type="text" class="block input"/>
+        </p>
+        <p class="row">
+          <!-- <label for="mob">聯系手機</label> -->
+          <input id="mobile" name="mobile" maxlength="11" type="tel" class="block input"/>
+        </p>
+        <p data-toggle="distpicker" class="row">
+          <!-- <label for="address">地址</label> -->
+          <input id="address" name="address" placeholder="請輸入詳細地址" type="text" class="block input"/>
+        </p>
+        <div class="row row_area" style="height: 20px;">
+          <!-- <label for="address">方便接聽電話時間</label> -->
+        </div>
+        <p class="row row_area">
+          <select name="convenientTime" id="convenientTime" class="block input" style="background-color: rgb(255, 255, 255);">
+            <option value="未選擇" selected="selected">請選擇...</option>
+            <option value="上午（9點~12點）">上午（9點~12點）</option>
+            <option value="下午（12點~18點）">下午（12點~18點）</option>
+            <option value="09：00~10：00">09：00~10：00</option>
+            <option value="10：00~11：00">10：00~11：00</option>
+            <option value="11：00~12：00">11：00~12：00</option>
+            <option value="12：00~13：00">12：00~13：00</option>
+            <option value="13：00~14：00">13：00~14：00</option>
+            <option value="14：00~15：00">14：00~15：00</option>
+            <option value="15：00~16：00">15：00~16：00</option>
+            <option value="16：00~17：00">16：00~17：00</option>
+            <option value="17：00~18：00">17：00~18：00</option>
+            <option value="隨時可以聯系我">隨時可以聯系我</option>
+          </select>
+        </p>
+      </div>
+    </section>
+    <footer style="padding-bottom:2px ">
+      <div id="buy_now" @click="submit" class="c_txt orange_bg">提 交</div>
+    </footer>
+    <!-- <p class="f-tips">溫馨提示： 您提交訂單後，我們將有專人在24小時內與您聯系，如果漏接電話，將可能被取消免費咨询資格，請您註意來電！</p> -->
+  </div>
+  <script src="./jquery-3.4.1.min.js"></script>
+  <script>
+    function getQueryString(strname) {
+      let reg = new RegExp('(^|&|/?)' + strname + '=([^&]*?)([&?]|$)'),
+        search = location.search ? location.search : location.hash,
+        r = search.substr(1).match(reg)
+      if (r != null) return decodeURIComponent(r[2])
+      return ''
+    }
+
+    $('#buy_now').on('click', function(){
+      var params = {
+        channel: getQueryString('utm_source'),
+        proName: $('#proName').val(),
+        proId: $('#proId').val(),
+        name: $('#name').val(),
+        mobile: $('#mobile').val(),
+        address: $('#address').val(),
+        convenientTime: $('#convenientTime').val()
+      }
+      console.log(params)
+      $.ajax({
+        type: "post",
+        // url: "http://47.56.199.89:3000/report/addReport",
+        url: "http://localhost:3000/report/addReport",
+        contentType: 'multipart/form-data; charset=utf-8',
+        data: params,
+        success: function(data){
+          console.log(data)
+          if(data.code == 0){
+            alert('提交成功，我們將有專人在24小時內與您聯系')
+          }else{
+            alert('提交失敗，請稍後重試')
+          }
+        }
+      });
+    })
+  </script>
+</body>
+</html>
